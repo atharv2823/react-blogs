@@ -28,3 +28,36 @@
     margin: 0;
     padding: 0;
 }
+.author-name{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-left:10px;
+    font-style: italic;
+}
+.author-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.author-card{
+    display: flex;
+    align-items: center;
+}
+.blog-date{
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.blog-categories{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
