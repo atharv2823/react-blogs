@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom"
 import "../Blogscards/BlogCard.css"
 
-export default function BlogCard({title , content , author, date, categories}) {
+export default function BlogCard({ id,title , content , author, date, categories}) {
   return (
-    <div className="Blog-card">
+    <Link className="Blog-card" to={`/blog/${id}`}>
         <h2 className="blog-title">{title}</h2>
         <p className="blog-content">
           {content.substring(0,50)}...
@@ -22,6 +23,6 @@ export default function BlogCard({title , content , author, date, categories}) {
         
         
         
-    </div>
+    </Link>
   )
 }

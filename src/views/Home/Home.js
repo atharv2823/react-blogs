@@ -11,6 +11,7 @@ export default function Home() {
     blogs.map((blogObject , i) => {
       
       const {
+        id,
         title,
         content,
         author,
@@ -21,6 +22,7 @@ export default function Home() {
       return (
        <BlogCard
        key={i}
+       id={id}
        title={title}
        content={content}
        author={author}
