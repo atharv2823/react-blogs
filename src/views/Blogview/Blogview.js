@@ -14,6 +14,13 @@ export default function Blogview() {
       <p>
         {selectedBlog.author.name} | {selectedBlog.date}
       </p>
+      <p>{selectedBlog.content}</p>
+
+      {selectedBlog.author.avatar}
+
+      <h3>{selectedBlog.author.name} </h3> 
+
+      <h5>{selectedBlog.categories}</h5>
 
     </div>
   )

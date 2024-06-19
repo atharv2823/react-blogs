@@ -1,9 +1,9 @@
 const blogs = [
      
         {
-            id: 1,
+            id: "1",
             title: "The Future of AI",
-            content: "Artificial Intelligence is rapidly evolving, impacting various industries...",
+            content: "Artificial Intelligence is rapidly evolving, impacting various industries ",
             author:{
                 name: "Jane Smith",
                 avatar : "https://i.pravatar.cc/150?img=30"
@@ -12,7 +12,7 @@ const blogs = [
             categories: ["Technology", "AI"]
         },
         {
-            id: 2,
+            id: "2",
             title: "Climate Change and Its Effects",
             content: "Climate change is one of the biggest challenges facing the world today...",
             author:{
@@ -23,7 +23,7 @@ const blogs = [
             categories: ["Environment", "Science"]
         },
         {
-            id: 3,
+            id: "3",
             title: "Exploring the Universe",
             content: "The universe is vast and full of mysteries. Recent discoveries have shown...",
             author:{
@@ -34,7 +34,7 @@ const blogs = [
             categories: ["Science", "Astronomy"]
         },
         {
-            id: 4,
+            id: "4",
             title: "Healthy Eating Habits",
             content: "Maintaining a healthy diet is crucial for overall well-being. Here are some tips...",
             author:{
@@ -45,7 +45,7 @@ const blogs = [
             categories: ["Health", "Lifestyle"]
         },
         {
-            id: 5,
+            id: "5",
             title: "The Impact of Social Media",
             content: "Social media has transformed the way we communicate and interact...",
             author:{
@@ -56,7 +56,7 @@ const blogs = [
             categories: ["Technology", "Social Media"]
         },
         {
-            id: 6,
+            id: "6",
             title: "Advancements in Renewable Energy",
             content: "Renewable energy is becoming increasingly important in the fight against climate change...",
             author:{
@@ -67,7 +67,7 @@ const blogs = [
             categories: ["Energy", "Environment"]
         },
         {
-            id: 7,
+            id: "7",
             title: "The Art of Mindfulness",
             content: "Mindfulness is a powerful tool for managing stress and enhancing mental health...",
             author:{
@@ -78,7 +78,7 @@ const blogs = [
             categories: ["Health", "Wellness"]
         },
         {
-            id: 8,
+            id: "8",
             title: "The Future of Transportation",
             content: "With the rise of electric vehicles and autonomous driving, the transportation industry is on the cusp of a revolution...",
             author:{
